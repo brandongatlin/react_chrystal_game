@@ -1,0 +1,21 @@
+[{
+        "id": "1",
+        "name": "amazon",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Amazon-icon.png"
+    },
+    {
+        "id": "2",
+        "name": "plane",
+        "src": "https://cdn4.iconfinder.com/data/icons/dot/256/air_plane_airport.png"
+    },
+    {
+        "id": "3",
+        "name": "food",
+        "src": "https://cdn.iconscout.com/icon/premium/png-256-thumb/food-119-116206.png"
+    },
+    {
+        "id": "4",
+        "name": "jewelry",
+        "src": "http://www.myiconfinder.com/uploads/iconsets/256-256-97cf56c22e32a82fe2efa12b618e39e0-diamond.png"
+    }
+]
