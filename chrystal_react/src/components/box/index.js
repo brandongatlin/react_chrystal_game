@@ -1,5 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-const box = props => <img key={props.id} src={props.src} alt={props.name} />;
-
-export default box;
+const Box = props => {
+  return (
+    <img
+      src={props.src}
+      alt={props.alt}
+      value={props.value}
+      onClick={props.click}
+    />
+  );
+};
+export default Box;
