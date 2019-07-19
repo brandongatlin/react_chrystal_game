@@ -35,6 +35,8 @@ const ClickBox = props => {
       handleWin();
     } else if (score > goal) {
       handleLose();
+    } else {
+      return;
     }
   };
 
