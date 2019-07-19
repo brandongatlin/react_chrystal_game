@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const ScoreCard = props => {
   return (
-    <p>
-      {props.score}/{props.goal}
-    </p>
+    <div>
+      <p>score:</p>
+      <p id='score'>{props.score}</p>
+      <p>budget:</p>
+      <p id='budget'>{props.goal}</p>
+    </div>
   );
 };
 
