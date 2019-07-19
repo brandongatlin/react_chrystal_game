@@ -29,12 +29,12 @@ const ClickBox = props => {
   };
 
   const checkWin = (score, goal) => {
+    document.getElementById("score").innerText = score;
+
     if (score === goal) {
       handleWin();
     } else if (score > goal) {
       handleLose();
-    } else {
-      document.getElementById("score").innerText = score;
     }
   };
 
@@ -49,6 +49,8 @@ const ClickBox = props => {
   };
 
   const resetGame = () => {
+    score = 0;
+    document.getElementById("score").innerText = score;
     forceUpdate();
   };
 
